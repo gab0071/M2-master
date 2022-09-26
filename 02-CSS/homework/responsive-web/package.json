@@ -11,6 +11,6 @@
   "scripts": {
     "less": "less-watch-compiler less css index.less"
   },
-  "author": "",
+  "author": "catellaTech",
   "license": "ISC"
 }

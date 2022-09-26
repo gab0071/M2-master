@@ -1,1 +1,15 @@
 // Mixins acá
+
+.btn-colors (@color,@background) {
+   color: @color;
+   background-color: @background;
+}
+
+.btn {
+    .btn-colors(#ccc, #23293B);
+}
+
+.btn:hover {
+    .btn-colors(#23293B,#ccc);
+}
+
